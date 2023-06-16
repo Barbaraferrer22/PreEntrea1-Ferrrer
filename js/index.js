@@ -1,8 +1,8 @@
 setTimeout(consultarPrendas, 2000);
 
 function mostrarCuotas() {
-  confirm("Puedes pagar en cuotas 💸, Escoge tus cuotas (hasta 12)");
-  for (let i = 1; i <= 12; i++) {
+  confirm("Puedes pagar en cuotas 💸, Escoge tus cuotas (hasta 6)");
+  for (let i = 1; i <= 6; i++) {
     console.log(i + " cuota(s)  sin interés.");
   }
   alert("Gracias por su compra");
